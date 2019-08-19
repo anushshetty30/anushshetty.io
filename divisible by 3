@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <conio.h>
+ 
+void main()
+{
+  int num=0;
+  printf("\nEnter a number ");
+  scanf("%d",&num);
+  if(num%3==0)
+  {
+      printf("\nThe number %d is divisible by 3 ");
+    }
+    else
+    {
+      printf("\nThe number %d is not divisible by 3 ");
+    }
+  }
